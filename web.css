@@ -18,6 +18,10 @@ body{
 
 }
 .tuijian{
-	color: white;
+	color: rgba(146, 191, 226, 1);
+	font-weight: bold;
 	background: rgba(45, 43, 43, 0.75);
+}
+.tuijian a{
+	color: white;
 }
