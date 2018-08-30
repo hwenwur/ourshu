@@ -1,0 +1,23 @@
+/*背景图*/
+body{
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.container{
+	margin-top: 10%;
+}
+.center{
+	text-align: center;
+	color: white;
+	background: rgba(45, 43, 43, 0.75);
+
+}
+.tuijian{
+	color: white;
+	background: rgba(45, 43, 43, 0.75);
+}
