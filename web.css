@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-	margin-top: 10%;
+	margin-top: 5%;
 }
 .center{
 	text-align: center;
@@ -24,4 +24,11 @@ body{
 }
 .tuijian a{
 	color: white;
+}
+#logo{
+	margin-bottom: 1em;
+}
+#searchbar{
+	margin-top: 10px;
+	line-height: 10px;
 }

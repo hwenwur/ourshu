@@ -14,40 +14,37 @@
 </head>
 <body>
 <div class="container">
-	<div>
-		<center>
+	<div align="center">
 			<!-- <span style="color: blue; font-size: 8em;">O</span>
 			<span style="color: red; font-size: 8em;">u</span>
 			<span style="color: yellow; font-size: 8em;">r</span>
 			<span style="color: blue; font-size: 8em;">s</span>
 			<span style="color: green; font-size: 8em;">h</span>
 			<span style="color: red; font-size: 8em;">u</span> -->
-			<img src="images/ourshu.png" width="40%" height="25%;">
-		</center>
+			<img src="images/ourshu.png" width="40%" height="25%;" id="logo">
 		<div class="input-group input-group-lg">
 			<div class="input-group-prepend">
 				<span class="input-group-text">搜索</span>
 			</div>
-			<input class="form-control" type="text" name="" placeholder="按回车键搜索，默认使用百度">
+			<input class="form-control" type="text" name="" id="searchEdit" placeholder="按回车键搜索，默认使用百度">
 		</div>
-		<p>
-			<center>
-				<input type="submit" name="" class="btn btn-info" value="百度">
-				<input type="submit" name="" class="btn btn-info" value="谷歌">
-				<input type="submit" name="" class="btn btn-info" value="搜狗">
-				<input type="submit" name="" class="btn btn-info" value="『搜上大』">
-				<input type="submit" name="" class="btn btn-info" value="知乎">
-				<input type="submit" name="" class="btn btn-info" value="微信">
-				<input type="submit" name="" class="btn btn-info" value="微博">
-				<input type="submit" name="" class="btn btn-info" value="淘宝">
-				<input type="submit" name="" class="btn btn-info" value="京东">
+			<div id="searchbar">
+				<input type="submit" class="btn btn-info" value="百度" id="百度">
+				<input type="submit" class="btn btn-info" value="谷歌" id="谷歌">
+				<input type="submit" class="btn btn-info" value="必应" id="必应">
+				<input type="submit" class="btn btn-info" value="『搜上大』" id="搜上大">
+				<input type="submit" class="btn btn-info" value="知乎" id="知乎">
+				<input type="submit" class="btn btn-info" value="微信" id="微信">
+				<input type="submit" class="btn btn-info" value="微博" id="微博">
+				<input type="submit" class="btn btn-info" value="淘宝" id="淘宝">
+				<input type="submit" class="btn btn-info" value="京东" id="京东">
 
-			</center>
-			</p>
+			</div>
 	</div>
 </div>
+<div style="height: 100px;"></div>
 <div class="container">
-	<table class="table table-hover acitve">
+	<table class="table">
 		<thead>
 			<tr class="center">
 				<th colspan="5" class="tuijian">常用网址</th>
@@ -57,79 +54,79 @@
 		<tbody>
 			<tr>
 				<td align="center" class="tuijian">社交</td>
-				<td align="center" class="tuijian"><a href="">知乎</a></td>
-				<td align="center" class="tuijian"><a href="">豆瓣</a></td>
-				<td align="center" class="tuijian"><a href="">微博</a></td>
-				<td align="center" class="tuijian"><a href="">微信web版</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.zhihu.com">知乎</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.douban.com/">豆瓣</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://weibo.com">微博</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://wx.qq.com">微信web版</a></td>
 				<td align="center" class="tuijian">C1</td>
-				<td align="center" class="tuijian"><a href="">选课网</a></td>
-				<td align="center" class="tuijian"><a href="">教务处</a></td>
-				<td align="center" class="tuijian"><a href="">学校官网</a></td>
-				<td align="center" class="tuijian"><a href="" style="color: white;">专业信息</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.xk.shu.edu.cn">选课网</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.jwc.shu.edu.cn">教务处</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.shu.edu.cn">学校官网</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://zyinfo.shu.edu.cn">专业信息</a></td>
 			</tr>
 			<tr>
 				<td align="center" class="tuijian">视频</td>
-				<td align="center" class="tuijian"><a href="">网易公开课</a></td>
-				<td align="center" class="tuijian"><a href="">爱奇艺</a></td>
-				<td align="center" class="tuijian"><a href="">B站</a></td>
-				<td align="center" class="tuijian"><a href="">优酷</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://open.163.com">网易公开课</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.iqiyi.com">爱奇艺</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.bilibili.com">B站</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.youku.com">优酷</a></td>
 				<td align="center" class="tuijian">C2</td>
-				<td align="center" class="tuijian"><a href="">易班</a></td>
-				<td align="center" class="tuijian"><a href="">孰知网</a></td>
-				<td align="center" class="tuijian"><a href="">信息化平台</a></td>
-				<td align="center" class="tuijian"><a href="">成就系统</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.yiban.cn">易班</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.sz.shu.edu.cn">孰知网</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://services.shu.edu.cn">信息化平台</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.act.shu.edu.cn">成就系统</a></td>
 			</tr>
 			<tr>
 				<td align="center" class="tuijian">购物</td>
-				<td align="center" class="tuijian"><a href="">淘宝</a></td>
-				<td align="center" class="tuijian"><a href="">天猫</a></td>
-				<td align="center" class="tuijian"><a href="">京东</a></td>
-				<td align="center" class="tuijian"><a href="">亚马逊</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.taobao.com">淘宝</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.tmall.com">天猫</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://jd.com">京东</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.amazon.com">亚马逊</a></td>
 				<td align="center" class="tuijian">C3</td>
-				<td align="center" class="tuijian"><a href="">图书馆</a></td>
-				<td align="center" class="tuijian"><a href="">校园邮箱</a></td>
-				<td align="center" class="tuijian"><a href="">3D地图</a></td>
-				<td align="center" class="tuijian"><a href="">社区学院</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.lib.shu.edu.cn">图书馆</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://mail.shu.edu.cn">校园邮箱</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://720yun.com/t/59c29wavuln
+">全景上大</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://residential.shu.edu.cn/Default.aspx">社区学院</a></td>
 			</tr>
 			<tr>
 				<td align="center" class="tuijian">音乐</td>
-				<td align="center" class="tuijian"><a href="">网易云音乐</a></td>
-				<td align="center" class="tuijian"><a href="">虾米</a></td>
-				<td align="center" class="tuijian"><a href="">百度音乐</a></td>
-				<td align="center" class="tuijian"><a href="">热歌排行</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://music.163.com">网易云音乐</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.xiami.com">虾米音乐</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://music.taihe.com/">千千音乐</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://music.163.com/#/discover/toplist">热歌排行</a></td>
 				<td align="center" class="tuijian">C4</td>
-				<td align="center" class="tuijian"><a href="">晨跑与课外活动查询</a></td>
-				<td align="center" class="tuijian"><a href=""> </a></td>
-				<td align="center" class="tuijian"><a href="">物理实验中心</a></td>
-				<td align="center" class="tuijian"><a href=""> </a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://202.120.127.149:8989/spims/login.do">晨跑与课外活动查询</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href=""> </a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.phylab.shu.edu.cn">物理实验中心</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href=""> </a></td>
 			</tr>
 			<tr>
 				<td align="center" class="tuijian">新闻</td>
-				<td align="center" class="tuijian"><a href="">人民日报</a></td>
-				<td align="center" class="tuijian"><a href="">新浪新闻</a></td>
-				<td align="center" class="tuijian"><a href="">凤凰网</a></td>
-				<td align="center" class="tuijian"><a href="">上海新闻网</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://www.people.cn">人民网</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://news.sina.cn">新浪新闻</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.ifeng.com">凤凰网</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="https://www.chinanews.com">中国新闻网</a></td>
 				<td align="center" class="tuijian">C5</td>
-				<td align="center" class="tuijian"><a href="">教学参考书系统</a></td>
-				<td align="center" class="tuijian"><a href=""> </a></td>
-				<td align="center" class="tuijian"><a href="">军事理论报名</a></td>
-				<td align="center" class="tuijian"><a href=""> </a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://info.lib.shu.edu.cn:82/Textbook/index.html">教学参考书系统</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href=""> </a></td>
+				<td align="center" class="tuijian"><a target="_blank" href="http://lms.shu.edu.cn">军事理论报名</a></td>
+				<td align="center" class="tuijian"><a target="_blank" href=""> </a></td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
-<div class="container">
-	<center>
+<div class="container" align="center">
 		<p style="color: white">本站根据<a href="">byr.wiki</a>开发&nbsp;&nbsp;
 		<span><a href="">关于作者</a></span>
 		<span><a href="">&nbsp;提交建议</a></span>
 	</p>
-	</center>
+	<p style="color: white;">提示：电脑Ctrl+D可添加本站书签</p>
 </div>
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
 <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="web.js"></script>
 </body>
 </html>
