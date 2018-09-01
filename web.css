@@ -6,10 +6,13 @@ body{
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+	padding: 0;
+
 }
 
 .container{
-	margin-top: 5%;
+	margin-top: 10%;
+	width: 100%;
 }
 .center{
 	text-align: center;
@@ -30,5 +33,5 @@ body{
 }
 #searchbar{
 	margin-top: 10px;
-	line-height: 10px;
+	line-height: 50px;
 }
