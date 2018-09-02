@@ -1,5 +1,5 @@
 function init(){
-	alert("网站开发中。。。");
+	// alert("网站开发中。。。");
 	// >>>>>>>>>>>>>>>此处设置搜索引擎
 	// searchEngine 的key 必须和按钮id一致。
 	searchEngine["百度"]="https://www.baidu.com/#ie=UTF-8&wd=$kw";
