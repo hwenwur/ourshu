@@ -11,10 +11,12 @@ function init(){
 	searchEngine["微博"]="http://s.weibo.com/weibo/$kw";
 	searchEngine["淘宝"]="https://s.taobao.com/search?q=$kw";
 	searchEngine["京东"]="http://search.jd.com/Search?enc=utf-8&keyword=$kw";
+	searchEngine["图书馆"]="http://202.120.121.228:8991/F?func=find-b&find_code=WRD&request=$kw";
+
 
 
 	// >>>>>>>>>>>>>>>>>
-	
+
 	$(document).keydown(function(event){
 		if (event.keyCode==13){
 			onEnterClick();
